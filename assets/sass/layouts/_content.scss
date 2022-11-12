@@ -1,0 +1,34 @@
+.bg-dark-search{
+    background: $main;
+}
+.content-filters{
+    & .box{
+        display: flex;
+        margin-right: 56px;
+    }
+}
+.filter-prefix-grid, filter-price-range-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+}
+  .hide {
+    transform: scaleY(1);
+    overflow: hidden;
+  }
+  .show {
+    transform: scaleY(1);
+    overflow: visible
+  }
+.content_after{
+  margin-bottom: 20px;
+  max-height: 350px;
+  overflow-y: auto;
+  padding: 0.5rem;
+  position: relative;
+}
+.a{
+  position: relative;
+}
+.c{
+  display: flex;
+}
