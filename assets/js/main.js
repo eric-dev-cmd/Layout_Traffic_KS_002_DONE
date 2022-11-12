@@ -17,8 +17,9 @@ showFilterAdvanced.addEventListener("click", () => {
    }
 });
 $(document).ready(function () {
-   $('.menu-toggle i').click(function () {
+   $('.menu-icon').click(function () {
       $('nav').toggleClass('active')
+      $('.menu-mobile').toggleClass('d-block')
    })
    $('#js-toggle-advance-search').click(function () {
       $('.mobile-search-advance').toggleClass('d-block')
